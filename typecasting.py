@@ -1,0 +1,10 @@
+x="10"
+y='40'
+print(type(x))
+print(type(y))
+print(int(x))
+print(int(y))
+print(x+y)
+print(int(x)+int(y))
+x=10.5
+print(float(x))

@@ -1,0 +1,11 @@
+x=10
+y=30
+z=30
+print(x+y)
+print(x*y)
+print(x/y)
+print(x-y)
+print(x-y-z)
+print(x+y+z)
+print(x*y*z)
+print(x/y*z)
