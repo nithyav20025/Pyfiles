@@ -2,4 +2,4 @@ x = input("enter your name")
 y = input("enter your age")
 z = input("enter your gender")
 
-print(x+y+z)
+print("Hi Vicky your age and gender is:",(y+z))
