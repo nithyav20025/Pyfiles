@@ -32,7 +32,7 @@ print(add(1,2,3,4))
 #kwargs
 
 def profile(**kwargs):
-    print("Employee details")
+    print("EMPLOYEE DETAILS")
     for key, value in kwargs.items():
         print(f"{key}: {value}")
 profile(Emp_Name= "Vignesh",Age= 29,Gender= "Male",Designation= "Software Engineer")
