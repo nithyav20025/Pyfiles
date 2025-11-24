@@ -51,3 +51,13 @@ if recharge_amount>=399 or data_pack>=1:
     print("eligible for free 1GB data")
 else:
     print("not eligible for free data")
+
+Bill_amount=1200
+offer_days="saturday"
+membership_id="yes"
+
+if (Bill_amount>=1200 and offer_days in['saturday', 'sunday']) or membership_id=='yes':
+    print("20% off")
+else:
+    print("discount not applicable")
+
