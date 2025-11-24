@@ -34,3 +34,14 @@ print("After clear",fav_fruits)
 print("count",fav_food.count('Idly'))
 
 print("count",len('Carrot'))
+
+#list slicing
+
+print("Top 2 food", fav_food[0:2])
+
+print("Last 2 fruits", fav_food[-2:])
+
+#list iteration
+
+for food in fav_food:
+    print("Menu",food)
