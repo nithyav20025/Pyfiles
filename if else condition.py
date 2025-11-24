@@ -32,3 +32,14 @@ if age>=18:
         print("Get a License")
 else:
     print("You are not eligible to drive")
+
+
+
+Mark=55
+Attendance=65
+
+
+if Mark>=50 and Attendance<=60:
+    print("You are allowed to attend the exam")
+else:
+    print("You are not allowed to attend the exam")
