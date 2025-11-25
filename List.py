@@ -45,3 +45,25 @@ print("Last 2 fruits", fav_food[-2:])
 
 for food in fav_food:
     print("Menu",food)
+
+for Menu in fav_food:
+    print(Menu+ " Is Ready to serve")
+
+#Check IF
+
+if "Carrot" in fav_vegetables:
+    print("Carrot is fresh")
+
+fav_vegetables[3]="Potato"
+print(fav_vegetables)         #Replace elements in list
+
+line=["Vicky",29,5.8]
+
+for item in line:
+    print(item)
+
+groceries= ["Milk","Curd","Oil","Wheat"]
+
+for i, items in enumerate(groceries):
+    print(f"Item {i} : {items}.")
+
