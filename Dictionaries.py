@@ -11,3 +11,9 @@ Employee = {
 print(Employee["Birthday"])
 print(Employee.get("Age"))
 
+print(Employee.keys())
+
+print(Employee.values())
+
+for key, value in Employee.items():
+    print(key,":",value)
