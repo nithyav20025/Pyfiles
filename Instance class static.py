@@ -14,3 +14,12 @@ print("After class method:", Student.Specialisation)
 
 Student.try_change_specialisation("Economics")
 print("After static method:", Student.Specialisation)
+
+#Static method
+
+class add:
+
+    @staticmethod
+    def add(x,y):
+        return x+y
+    print(add(30,40))
